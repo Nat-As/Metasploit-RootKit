@@ -15,7 +15,7 @@ cat << "EOF"
 |_|  |_|___/   |_|_\___/\___/\__| _|\_\ |_|\__|  
                                                  
 ===============================================
-BY: James Andrews jandrews7348@floridapoly.edu
+BY: James Andrews
 ===============================================
 EOF
 printf " Type ROOT to begin...\n"
@@ -24,8 +24,13 @@ read root
 if [[ $root = ROOT ]]
     then
     printf "Rooting...\n"
-    sleep 5
+    sleep 2
     chmod -c -R a+rwx /usr/share/metasploit-framework/modules/exploits
+    chmod -c -R a+rwx /usr/share/metasploit-framework/modules/auxiliary
+    chmod -c -R a+rwx /usr/share/metasploit-framework/modules/encoders
+    chmod -c -R a+rwx /usr/share/metasploit-framework/modules/nops
+    chmod -c -R a+rwx /usr/share/metasploit-framework/modules/payloads
+    chmod -c -R a+rwx /usr/share/metasploit-framework/modules/post
     printf "Done!\n"
 fi
 
