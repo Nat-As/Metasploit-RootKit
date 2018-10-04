@@ -15,7 +15,7 @@ cat << "EOF"
 |_|  |_|___/   |_|_\___/\___/\__| _|\_\ |_|\__|  
                                                  
 ===============================================
-BY: James Andrews
+BY: James Andrews jandrews7348@floridapoly.edu
 ===============================================
 EOF
 printf " Type ROOT to begin...\n"
