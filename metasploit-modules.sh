@@ -1,5 +1,5 @@
 #!/bin/bash
-# Metasploit Rootkit By: James Andrews
+# Metasploit Rootkit By: James Andrews AKA Nat-As
 # Github: Nat-As
 # Fri 28 Sep 2018 11:18:16 AM EDT 
 
@@ -15,7 +15,7 @@ cat << "EOF"
 |_|  |_|___/   |_|_\___/\___/\__| _|\_\ |_|\__|  
                                                  
 ===============================================
-BY: James Andrews
+BY: James Andrews <jandrews7348@floridapoly.edu>
 ===============================================
 EOF
 printf " Type ROOT to begin...\n"
